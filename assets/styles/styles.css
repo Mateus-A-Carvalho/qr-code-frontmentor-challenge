@@ -40,27 +40,30 @@ body {
   width: 29rem;
   height: 45rem;
   background-color: var(--white);
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   padding: 1.5rem;
+  box-shadow: .5rem -.5rem 5rem .1rem rgba(0, 0, 0, .1);
 }
 
 .qr-code__img {
   width: var(--frame);
   height: var(--frame);
-  border-radius: .5rem;
+  border-radius: 1rem;
 }
 
 .heading,
 .paragraph {
   text-align: center;
-  padding: 2rem .5rem 1rem .5rem;
 }
 
 .heading {
   color: var(--dark-blue);
+  padding: 2rem .5rem 0 .5rem;
 }
 
 .paragraph {
   color: var(--grayish-blue);
+  font-size: 1.5rem;
+  padding: 1.5rem;
 }
   
