@@ -1,3 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+
+:root {
+  /* COLORS VARIABLES */
+  --white: rgba(255, 255, 255);
+  --light-gray: rgb(214, 226, 240);
+  --grayish-blue:  rgb(123, 135, 157);
+  --dark-blue: rgb(31, 50, 81);
+  /* COLORS VARIABLES */
+  /* DIMENSIONS VARIABLES */
+  --frame: 26rem;
+  /* DIMENSIONS VARIABLES */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,4 +26,41 @@ html {
 
 body {
   height: 100%;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.3rem;
+  background-color: var(--light-gray);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
 }
+
+.card {
+  margin: 0 auto;
+  width: 29rem;
+  height: 45rem;
+  background-color: var(--white);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.qr-code__img {
+  width: var(--frame);
+  height: var(--frame);
+  border-radius: .5rem;
+}
+
+.heading,
+.paragraph {
+  text-align: center;
+  padding: 2rem .5rem 1rem .5rem;
+}
+
+.heading {
+  color: var(--dark-blue);
+}
+
+.paragraph {
+  color: var(--grayish-blue);
+}
+  
