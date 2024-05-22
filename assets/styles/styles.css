@@ -67,3 +67,9 @@ body {
   padding: 1.5rem;
 }
   
+
+@media (max-width: 375px) {
+  .card {
+    margin: 5rem 1rem;
+  } 
+}
